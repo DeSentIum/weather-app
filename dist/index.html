@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/main.af46ece4.css">
+<script src="/main.af46ece4.js"></script></head>
+<body>
+    <div class="container">
+        <header class="heading">
+            <div class="header">
+                <h1>Weather App</h1>
+                <p>Control the weather, from anywhere int the world</p>
+            </div>
+            <nav class="searchbar">
+                <form action="index.html" method="get" class="searchForm">
+                    <label for="locationInput">
+                        <p class="searchbarInfo">Type the localisation that you want to check:</p>
+                        <div class="search">
+                            <input type="search" class="locationInput" id="locationInput" name="locationInput">
+                            <input type="submit" value="Submit" id="submitBtn" class="submitBtn">
+                        </div>
+                    </label>
+                </form>
+            </nav>
+        </header>
+        <main class="content">
+            
+        </main>
+        <footer class="footer">
+            Checkout my <a href="https://github.com/DeSentIum/weather-app">GitHub</a>. 2023 Poznań, Poland.
+        </footer>
+    </div>
+    <script src="/main.1f19ae8e.js" defer=""></script>
+</body>
+</html>
+
+<template>
+    <div class="contentObj">
+        <header>
+            <div class="location">
+                Location: <span class="resolvedAddress"></span>
+            </div>
+            <div class="desc">
+                Description: <span class="description"></span>
+            </div>
+            <div class="timezone">
+                TimeZone: <span class="timezone"></span>
+            </div>
+            <div class="coordinates">
+                Coordinates: <span class="longitude"></span>N | <span class="latitude"></span>E
+            </div>
+        </header>
+        <div class="weather">
+            <div class="current">
+                <div class="datetime">
+                    Time: <span class="currentTime"></span>
+                </div>
+                <div class="temp">
+                    Temparature: <span class="currentTemp"></span>C ( Feels like: <span class="feelslike"></span>C )
+                </div>
+                <div class="conditionsD">
+                    Condition: <span class="conditions"></span>
+                </div>
+                <div class="clouds">
+                    Cloudiness: <span class="cloudcover"></span>%
+                </div>
+                <div class="pressureed">
+                    Pressure: <span class="pressure"></span>HPa
+                </div>
+                <div class="sunrisDe">
+                    Sunrise: <span class="sunrise"></span>
+                </div>
+                <div class="sunDisDe">
+                    sunset: <span class="sunset"></span>
+                </div>
+                <div class="WIND">
+                    windspeed: <span class="windspeed"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

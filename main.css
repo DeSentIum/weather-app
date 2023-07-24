@@ -1,0 +1,87 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #323232;
+    color: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.heading, footer {
+    height: 100px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    justify-content: space-around;
+}
+
+h1, p {
+    margin: 10px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content {
+    flex-grow: 1;
+    min-height: 400px;
+    width: 100%;
+}
+
+.searchForm {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 350px;
+}
+
+.searchbarInfo {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.search {
+    display: flex;
+
+}
+
+.locationInput {
+    background-color: transparent;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    width: 100%;
+    color: #efefef;
+    padding: 2px 5px;
+}
+
+.submitBtn {
+    padding: 5px 10px;
+    background-color: #efefef;
+    color: #323232;
+    border-radius: 5px;
+}
+
+.content {
+    text-align: center;
+    padding: 20px 0;
+}
